@@ -69,7 +69,7 @@ export const projectsData = [
     date: "2022-10-01",
     demoLink: "https://chitchat.example.com",
     isHosted: false,
-    video: "/video/tst.mp4",
+    video: "/video/tt1.mp4",
   },
   {
     id: 7,
@@ -87,7 +87,7 @@ export const projectsData = [
     date: "2022-11-05",
     demoLink: "https://space-voyage.example.com",
     isHosted: false,
-    video: "/video/sample.mp4",
+    video: "/video/tt2.mp4",
   },
   {
     id: 9,
