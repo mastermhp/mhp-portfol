@@ -1,0 +1,134 @@
+/*
+Websites:
+
+- https://github.com/pmndrs/gltfjsx (GLTF JSX for 3D Models)
+- https://lucide.dev/icons/ (Lucide Icons)
+- https://github.com/anuraghazra/github-readme-stats (Github Readme Stats)
+- https://skillicons.dev (Skill Icons to show skills)
+- https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
+
+:root {
+  --background: 27 27 27;
+  --foreground: 225 225 225;
+  --muted: 115 115 115;
+  --accent: 254 254 91; #FEFE5B
+}
+
+*/
+
+export const projectsData = [
+  {
+    id: 1,
+    name: "Streamline",
+    description: "AI Video Generator with amazing features like pre-made templates, ai script, video editing tools and so on",
+    date: "2022-08-15",
+    demoLink: "https://streamline-ai.vercel.app/",
+    isHosted: true,
+    img: "/image/st.png",
+  },
+  {
+    id: 2,
+    name: "XtraBook",
+    description: "Video Streaming and sharing platform like a social media an user can create an account as well as they can upload their videos like youtube",
+    date: "2022-06-20",
+    demoLink: "https://videoappmhp.web.app/",
+    isHosted: true,
+    img: "/image/xt.png",
+  },
+  {
+    id: 3,
+    name: "Gaming Hub",
+    description: "An Immersive E-commerce platform with some xtra features ",
+    date: "2022-09-10",
+    demoLink: "https://gaming-hub-sell.netlify.app/",
+    isHosted: true,
+    img: "/image/gh.png",
+  },
+  {
+    id: 4,
+    name: "Hungry Bro?",
+    description: "Restaurent Website, Online food order and delivery system user can order their food here",
+    date: "2022-05-30",
+    demoLink: "https://mastermhp.github.io/Hungry-Bro",
+    isHosted: true,
+    img: "/image/hb.png",
+  },
+  {
+    id: 5,
+    name: "Future Bank",
+    description: "E-Banking, Online banking system with high security and make easier transactions",
+    date: "2022-07-12",
+    demoLink: "https://mastermhp.github.io/Future-Bank",
+    isHosted: true,
+    img: "/image/fb.png",
+  },
+  {
+    id: 6,
+    name: "ChitChat",
+    description: "Real-Time Chatting application with lots of features a medium of online communication",
+    date: "2022-10-01",
+    demoLink: "https://chitchat.example.com",
+    isHosted: false,
+    video: "/video/tst.mp4",
+  },
+  {
+    id: 7,
+    name: "ExoNav",
+    description: "Exoplanet with AI, learning and researching about exoplanet with Ai",
+    date: "2022-04-18",
+    demoLink: "https://exonav.example.com",
+    isHosted: false,
+    video: "/video/exonav.MOV",
+  },
+  {
+    id: 8,
+    name: "Space Voyage",
+    description: "Space Tourism, Futuristic travel management system for people in the space ",
+    date: "2022-11-05",
+    demoLink: "https://space-voyage.example.com",
+    isHosted: false,
+    video: "/video/sample.mp4",
+  },
+  {
+    id: 9,
+    name: "ExoNav Mission",
+    description: "Mission on Exoplanet, A mission based game based on exoplanet to explore more about exoplanets",
+    date: "2022-02-14",
+    demoLink: "https://exonav-mission.example.com",
+    isHosted: false,
+    video: "/video/gamefinalrec.MOV",
+  },
+];
+
+export const BtnList = [
+  { label: "Home", link: "/", icon: "home", newTab: false },
+  { label: "About", link: "/about", icon: "about", newTab: false },
+  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
+  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  {
+    label: "Github",
+    link: "https://www.github.com/mastermhp",
+    icon: "github",
+    newTab: true,
+  },
+  {
+    label: "LinkedIn",
+    link: "https://www.linkedin.com/in/mehedi-hasan-parash/",
+    icon: "linkedin",
+    newTab: true,
+  },
+  {
+    label: "X",
+    link: "https://x.com/MehediParash",
+    icon: "twitter",
+    newTab: true,
+  },
+  {
+    label: "Resume",
+    link: "/resume.pdf",
+    icon: "resume",
+    newTab: true,
+  },
+];
+
+
